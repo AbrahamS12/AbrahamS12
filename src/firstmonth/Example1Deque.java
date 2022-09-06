@@ -1,6 +1,6 @@
-package chinna;
+package firstmonth;
 
-	import java.util.ArrayDeque;
+	import java.util.ArrayDeque ;
 	import java.util.Deque ;
 
 	public class Example1Deque {
@@ -20,5 +20,4 @@ package chinna;
 		}
 
 	}
-
 

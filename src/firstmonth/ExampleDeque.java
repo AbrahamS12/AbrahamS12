@@ -1,9 +1,9 @@
-package chinna;
+package firstmonth;
 
 	import java.util.ArrayDeque ;
 	import java.util.Deque ;
 
-	public class ExampleDeque1 {
+	public class ExampleDeque {
 
 		public static void main(String[] args) {
 			     Deque<String> a = new ArrayDeque<String>( ) ;
@@ -16,4 +16,5 @@ package chinna;
 		}
 
 	}
+
 

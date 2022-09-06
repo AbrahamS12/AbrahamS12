@@ -1,7 +1,8 @@
-package chinna;
+package firstmonth;
 
 public class Datatype {
-	int i = 2 ;
+
+    int i = 2 ;
     int j = 3 ;
     
     int k = i*j ;

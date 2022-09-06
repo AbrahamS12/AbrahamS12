@@ -1,4 +1,4 @@
-package chinna;
+package firstmonth;
 
 public class Value {
 	int  a ;
@@ -18,4 +18,3 @@ System.out.println( "after  passing :   "+( op . a + op . b ) ) ;
 }
 
 }
-

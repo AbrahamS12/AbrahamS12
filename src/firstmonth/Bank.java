@@ -1,6 +1,6 @@
 package firstmonth;
 
-public class Bank {
+public class Bank{
 	static int CurrentBalance = 1000;
 	public static void greetcustomere () {
 		System.out.println("hello welcome banking");

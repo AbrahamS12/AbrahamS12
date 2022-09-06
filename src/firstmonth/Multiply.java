@@ -1,6 +1,6 @@
-package chinna;
+package firstmonth;
 
-public class Multiple {
+public class Multiply {
 	static int  multiple(int  a)
 	{
 		    System.out.println(5*a) ;
@@ -16,5 +16,6 @@ public class Multiple {
 	}
 	
 }
+
 
 

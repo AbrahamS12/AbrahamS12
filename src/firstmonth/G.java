@@ -1,12 +1,12 @@
-package chinna;
+package firstmonth;
 
-public class B {
+public class G {
 	double d = 123.2 ;
     long l =(long)d ;
     int i = (int) l ;
     		
 public static void main(String[] args) {
-    	B a = new B ( ) ;
+    	G a = new G ( ) ;
     			System.out.println(a.d) ;
     	System.out.println(a.l) ;
     	System.out.println(a.i) ; 
@@ -14,4 +14,5 @@ public static void main(String[] args) {
 }
 
 }
+
 

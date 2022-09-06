@@ -1,8 +1,8 @@
-package chinna;
+package firstmonth;
 
-	import java.util.Iterator ;
 	import java.util.HashSet ;
-	 
+	import java.util.Iterator ;
+
 	public class Example2HashSet {
 		
 
@@ -24,4 +24,5 @@ package chinna;
 
 		}
 
-}
+	}
+

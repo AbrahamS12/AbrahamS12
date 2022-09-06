@@ -1,4 +1,4 @@
-package chinna;
+package firstmonth;
 
 public class Encapsulationexample {
 	private  String name ;
@@ -20,4 +20,5 @@ public class Encapsulationexample {
 	           }
 	}
 	 
+
 

@@ -1,4 +1,4 @@
-package chinna;
+package firstmonth;
 
 	class  Animal1
 	{
@@ -24,7 +24,6 @@ package chinna;
 		   
 	}
 	public class Test {
-
 
 		public static void main(String[] args) {
 		   
