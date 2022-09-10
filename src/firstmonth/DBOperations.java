@@ -28,14 +28,38 @@ public class DBOperations {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	       
-	    		   return result;
+		return result;
+	           		  
+	}
+	public int deletedata(Employee emp) {
+		int result =0;
+		String query = "delete from Employee where id = "+emp.getId()+"";
+		try {
+		statement = connection.createStatement();
+		result = statement.executeUpdate(query);
+	} catch (SQLException e) {
+		
+		e.printStackTrace();
+	}
+	return result;
+	
+		
 	}
 	
 	public static void main(String[] args) {
 		DBOperations db = new DBOperations();
 		Scanner sc = new Scanner(System.in);
+		for(;;) {
+			System.out.println("please enter your choice= \n"+
+		"1.insert employee data \n"+
+		"2.delete employee data ");			
+		int n = sc.nextInt();
+			
 		Employee em = new Employee();
+		
+		switch(n) {
+		case 1:
+		
 		System.out.println("Please enter emp id");
 		em.setId(sc.nextInt());
 		sc.nextLine();
@@ -50,6 +74,18 @@ public class DBOperations {
 		System.out.println("Please enter emp addres");
 		em.setAddres(sc.nextLine());
 		db.insertDataWithStatement(em);
-	}
+		
+	
+		
+break;
+case 2:
+	
+	System.out.println("Please enter id to be deleted");
+	em.setId(sc.nextInt());
+	db.deletedata(em);
 
+		}
+}
+	
+}
 }
